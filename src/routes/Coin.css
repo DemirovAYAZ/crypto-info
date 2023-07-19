@@ -10,7 +10,7 @@
 }
 
 .rank{
-    margin: .5rem 0;
+    margin: 2rem auto;   
 }
 
 .rank-btn{
@@ -22,8 +22,7 @@
 }
 
 .info{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
 }
 
 .info .coin-heading{
