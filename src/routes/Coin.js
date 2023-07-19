@@ -36,10 +36,9 @@ const Coin = () => {
                             <p>{coin.name}</p>
                             <p>{coin.symbol ? coin.symbol.toUpperCase() : null}</p>
                         </div>
-                        <div className='coin-price'>
-                            {coin.market_data?.current_price ? <h1>${coin.market_data.current_price.usd.toLocaleString()}</h1> : null}
-                        </div>
-
+                    </div>
+                    <div className='coin-price'>
+                        {coin.market_data?.current_price ? <h1>${coin.market_data.current_price.usd.toLocaleString()}</h1> : null}
                     </div>
                 </div>
                 <div className='content'>
